@@ -1,5 +1,30 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+
 
 body{
-    background: white;
+    background: green;
+    width: 1200px;
+}
+
+#card{
+    border: 2px solid purple;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    width: 350px;
+    height: 500px;
+}
+
+#numero{
+    font-size: 100px;
+    font-weight: bold;
+    color: red;
+}
+
+.palo1, .palo2 {
+    font-size: 100px;
+    color: red;
 }
